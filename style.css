@@ -74,11 +74,11 @@ p {
 }
 
 a {
-	color: #212121;
+	color: #d4d7d7;
 }
 
 a:hover {
-	color: #c8a37b;
+	color: #ffca7a;
 	text-decoration: none;
 }
 .title-box {
@@ -148,12 +148,12 @@ footer ul {
 
 footer li a {
   text-decoration: none;
-  color: #ffca7a;
+  color: #d4d7d7;
   transition: 0.2s;
 }
 
 footer li a:hover {
-  color: #a26f45;
+  color: #ffca7a;
 	text-decoration: none;
 }
 
