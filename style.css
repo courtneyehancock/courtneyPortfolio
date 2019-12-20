@@ -146,8 +146,8 @@ footer li a:hover {
 }
 
 footer img {
-	max-width: 300px !important;
-	height: 200%;
+	max-width: 220px !important;
+	height: 100%;
 }
 
 /* -- MEDIA QUERIES -- */
