@@ -81,42 +81,11 @@ a:hover {
 	color: #ffca7a;
 	text-decoration: none;
 }
-.title-box {
-  width: 25px;
-  height: 50px;
-  background-color: #aadd73;
-  float:left;
-  margin-right: 20px;
-}
-.section-margins {
-  margin: 100px 0;
-}
-button {
-    border: 3px solid #60c28e;
-    font-family: 'Afterglow-Regular' !important;
-    color: #60c28e;
-    border-radius: 0;
-}
-button:hover {
-  border: 3px solid #60c28e !important;
-  background-color: #60c28e;
-  color: white;
-}
-
 
 /* -- HEADER -- */
-.container-fluid.top-menu-header.sticky-element-original.element-is-sticky {
-	-webkit-box-shadow: 0 10px 5px #888888;
-	-moz-box-shadow: 0 10px 5px #888888;
-	box-shadow: 0 1px 8px #888888;
-}
-
-.top-menu-header {
-	background-color: #fff;
-}
 
 img.brand-logo {
-	max-width: 200px;
+	max-width: 400px;
 	margin-top: 2%;
 	margin-left: 6%;
 }
