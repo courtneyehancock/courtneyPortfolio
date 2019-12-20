@@ -18,47 +18,57 @@ Maroon: #6a202b
 Soft Black: #1f2833
 
 Fonts
-font-family: 'CaviarDreams' !important;
-font-family: 'CaviarDreams_Bold' !important;
-font-family: 'CaviarDreams-BoldItalic' !important;
-font-family: 'CaviarDreams-Italic' !important;
-font-family: 'Afterglow-Regular' !important;
+font-family: 'JosefinSans-Bold' !important;
+font-family: 'JosefinSans-BoldItalic' !important;
+font-family: 'JosefinSans-Italic' !important;
+font-family: 'JosefinSans-Light' !important;
+font-family: 'JosefinSans-LightItalic' !important;
+font-family: 'JosefinSans-Regular' !important;
+font-family: 'JosefinSans-SemiBold' !important;
+font-family: 'JosefinSans-SemiBoldItalic' !important;
+font-family: 'JosefinSans-Thin' !important;
+font-family: 'JosefinSans-ThinItalic' !important;
 */
 
 
 /* -- Universal Styling -- */
 @font-face {
-	font-family: 'RoughBlacky';
-	src: url('fonts/RoughBlacky.otf') format('opentype');
+	font-family: 'JosefinSans-Regular';
+	src: url('fonts/JosefinSans-Regular.ttf') format('truetype');
 }
 @font-face {
-	font-family: 'Adam';
-	src: url('fonts/Adam.ttf') format('truetype');
+	font-family: 'JosefinSans-Light';
+	src: url('fonts/JoesfinSans-Light.ttf') format('truetype');
 }
 @font-face {
-	font-family: 'OpenSans-Regular';
-	src: url('fonts/OpenSans-Regular.ttf') format('truetype');
+	font-family: 'JosefinSans-Bold';
+	src: url('fonts/JosefinSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'JosefinSans-BoldItalic';
+	src: url('fonts/JosefinSans-BoldItalic.ttf') format('truetype');
 }
 
 h1 {
-  font-family: 'RoughBlacky' !important;
+  font-family: 'JoesfinSans-Bold' !important;
   letter-spacing: 1.5px;
   color: #322015;
 }
 
 h2, h3 {
-  font-family: 'Adam' !important;
+  font-family: 'JosefinSans-BoldItalic' !important;
   letter-spacing: 1.5px;
   color: #c8a37b;
 	text-transform: uppercase;
 }
 h4, h5, h6 {
-  font-family: 'OpenSans-Regular' !important;
+  font-family: 'JosefinSans-Regular' !important;
 	letter-spacing: 1.5px;
   color: #322015;
 }
 p {
-  font-family: 'OpenSans-Regular', sans-serif !important;
+  font-family: 'JosephinSans-Light', sans-serif !important;
 	color: #212121;
 }
 
