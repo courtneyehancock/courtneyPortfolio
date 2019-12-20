@@ -115,54 +115,14 @@ button:hover {
 	background-color: #fff;
 }
 
-img.daves-logo {
+img.brand-logo {
 	max-width: 200px;
 	margin-top: 2%;
 	margin-left: 6%;
 }
 
 /* -- HOME PAGE -- */
-.widget-small-banner img{
-	width: 100%;
-}
 
-a.homepage-offer {
-	color: #212121;
-}
-
-a.homepage-offer:hover {
-	color: #c8a37b;
-	text-decoration: none;
-}
-
-.home-icons {
-	width: 60px;
-}
-
-.home-icons:hover {
-	color: #c8a37b;
-	opacity: .7;
-	transition: .2s;
-}
-
-.home-banner-text {
-	background-color: #212121;
-	padding: 5%;
-}
-.image-ultimate-hover-1 .iheu-info,
-.image-ultimate-hover-2 .iheu-info {
-	background: #322015 !important;
-}
-/* -- PROJECTS PAGE -- */
-.crp-catalog-title{
-	font-family: 'OpenSans-Regular', sans-serif !important;
-	font-size: .8em;
-}
-
-/* -- CONTACT PAGE -- */
-label {
-	padding: 1%;
-}
 
 /* -- FOOTER -- */
 
@@ -188,7 +148,7 @@ footer ul {
 
 footer li a {
   text-decoration: none;
-  color: #c8a37b;
+  color: #ffca7a;
   transition: 0.2s;
 }
 
