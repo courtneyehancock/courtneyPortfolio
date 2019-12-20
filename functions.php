@@ -24,10 +24,46 @@
 
   add_action('wp_enqueue_scripts', 'custom_theme_scripts');
 
+  function add_custom_script() {
+    wp_register_script('custom_script', home_url() . '/wp-content/themes/mytheme/js/custom_script.js', array( 'jquery' ));
+    wp_enqueue_script('custom_script');
+  }
+  
+  add_action( 'wp_enqueue_scripts', 'add_custom_script' );
 
   //Widget Areas
   function blank_widgets_init() {
+    //Home: Banner Widget
+    register_sidebar(array(
+      'name'          => ('Banner Home'),
+      'id'            => 'banner-home',
+      'description'   => 'Top banner widget area in home page',
+      'before_widget' => '<div class="widget-home widget-top">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
 
+    //Home: Service-Brief Widget
+    register_sidebar(array(
+      'name'          => ('Service-Brief Home'),
+      'id'            => 'service-brief-home',
+      'description'   => 'Service-Brief widget area in home page',
+      'before_widget' => '<div class="widget-home widget-service-brief">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+    //Home: Contact-Brief Widget
+    register_sidebar(array(
+      'name'          => ('Contact-Brief Home'),
+      'id'            => 'contact-brief-home',
+      'description'   => 'Contact-Brief widget area in home page',
+      'before_widget' => '<div class="widget-home widget-right">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
     //Footer: Left Widget
     register_sidebar(array(
       'name'          => ('Left Footer'),
