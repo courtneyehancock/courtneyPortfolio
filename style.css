@@ -88,6 +88,13 @@ img.brand-logo {
 	height: 100%;
 }
 
+div#site-logo {
+	z-index: 1;
+}
+
+div#site-nav {
+    z-index: 1;
+}
 /* -- HOME PAGE -- */
 .nk-awb-inner {
     margin-top: -210px;
