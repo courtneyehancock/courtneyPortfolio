@@ -136,6 +136,7 @@ footer li a:hover {
 
 footer img {
 	max-width: 300px !important;
+	height: 200%;
 }
 
 /* -- MEDIA QUERIES -- */
