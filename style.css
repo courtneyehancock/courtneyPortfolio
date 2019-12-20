@@ -53,19 +53,16 @@ font-family: 'JosefinSans-ThinItalic' !important;
 
 h1 {
   font-family: 'JosefinSans-Bold' !important;
-  letter-spacing: 1.5px;
   color: #ffca7a;
 }
 
 h2, h3 {
   font-family: 'JosefinSans-BoldItalic' !important;
-  letter-spacing: 1.5px;
   color: #322015;
 	text-transform: uppercase;
 }
 h4, h5, h6 {
   font-family: 'JosefinSans-Regular' !important;
-	letter-spacing: 1.5px;
   color: #75442a;
 }
 p {
