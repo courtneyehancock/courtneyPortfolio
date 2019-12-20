@@ -102,7 +102,7 @@ div#site-nav {
 }
 /* -- HOME PAGE -- */
 .nk-awb-inner {
-    margin-top: -210px;
+    margin: -210px 0 -90px 0;
 }
 
 /* -- FOOTER -- */
