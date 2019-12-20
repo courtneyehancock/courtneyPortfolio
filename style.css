@@ -95,6 +95,11 @@ div#site-logo {
 div#site-nav {
     z-index: 1;
 }
+
+.intro-text {
+	font-family: 'JosefinSans-Bold', sans-serif !important;
+	color: #212121;
+}
 /* -- HOME PAGE -- */
 .nk-awb-inner {
     margin-top: -210px;
