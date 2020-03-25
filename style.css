@@ -148,9 +148,10 @@ body{
   padding-bottom:400px;
 }
 .main-content{
-  min-height:200vh;
+/*  min-height:200vh;*/
   background:#fff;
   z-index:1;
+	position:relative;
 }
 footer{
   position:fixed;
