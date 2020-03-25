@@ -108,6 +108,10 @@ div#site-nav {
     margin: -210px 0 -90px 0;
 }
 
+/* -- PORTFOLIO SECTION -- */
+.gallery-1 .ftg-filters a {
+    letter-spacing: 2px;
+}
 /* -- FOOTER -- */
 footer p {
 	color: #fff;
