@@ -80,6 +80,9 @@ a:hover {
 }
 
 /* -- HEADER -- */
+a.mega-menu-link {
+	letter-spacing:2px;
+}
 
 img.brand-logo {
 	max-width: 250px;
