@@ -159,7 +159,7 @@ footer{
   width:100%;
   height:400px;
   color:#fff;
-  z-index:-1;
+  z-index:0;
 	background-color: #212121;
 	padding: 3% 0 3% 0;
 }
