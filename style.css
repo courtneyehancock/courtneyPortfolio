@@ -58,11 +58,11 @@ h1 {
 
 h2, h3 {
   font-family: 'JosefinSans-BoldItalic' !important;
-  color: #322015;
+  color: #684551;
 }
 h4, h5, h6 {
   font-family: 'JosefinSans-Regular' !important;
-  color: #75442a;
+  color: #ad6a6c;
 }
 p {
   font-family: 'JosefinSans-Light', sans-serif !important;
@@ -84,7 +84,7 @@ a:hover {
     margin-right:auto;
     margin-left:auto
  }
- 
+
 /* -- HEADER -- */
 a.mega-menu-link {
 	letter-spacing:2px;
