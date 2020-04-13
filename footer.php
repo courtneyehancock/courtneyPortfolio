@@ -33,7 +33,7 @@
     <div class="row">
       <div class="col-md-12">
         <!--Copyright-->
-        <p class="text-center font-italic">&copy; WordPress Theme created by Courtney Hancock 2019</p>
+        <p class="text-center font-italic">&copy; Courtney Hancock 2020</p>
       </div>
     </div>
   </div>
