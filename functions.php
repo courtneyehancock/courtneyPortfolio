@@ -19,6 +19,8 @@
   //Javascript files
     wp_enqueue_script('custom-js', get_template_directory_uri() . '/js/main.js');
     wp_enqueue_script('bootstrap-js', get_template_directory_uri() . '/js/bootstrap.min.js');
+    wp_enqueue_script('rellax-js', get_template_directory_uri() . '/js/rellax.min.js');
+
 
   }
 
@@ -28,7 +30,7 @@
     wp_register_script('custom_script', home_url() . '/wp-content/themes/mytheme/js/custom_script.js', array( 'jquery' ));
     wp_enqueue_script('custom_script');
   }
-  
+
   add_action( 'wp_enqueue_scripts', 'add_custom_script' );
 
   //Widget Areas
