@@ -172,7 +172,7 @@ footer img {
 }
 /* -- FOOTER REVEAL -- */
 body{
-  padding-bottom:400px;
+  padding-bottom:600px;
 }
 .main-content {
 /*  min-height:200vh;*/
@@ -186,7 +186,7 @@ footer{
   bottom:0;
   left:0;
   width:100%;
-  height:400px;
+  height:600px;
   color:#fff;
   z-index:0;
 	background-color: #ad6a6c;
@@ -194,6 +194,15 @@ footer{
 }
 
 /* -- MEDIA QUERIES -- */
+@media (min-width:992px) {
+	footer {
+		height:400px
+	}
+	body {
+		padding-bottom:400px;
+	}
+}
+
 @media only screen and (max-width: 767px) {
 	footer {
 		text-align: center;
