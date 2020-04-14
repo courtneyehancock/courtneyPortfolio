@@ -88,6 +88,17 @@ a:hover {
 html {
 	scroll-behavior: smooth;
 }
+
+.btn {
+	background-color:#684551;
+	color:#fff;
+	border: #684551;
+}
+
+.btn:hover {
+	background-color: transparent;
+	color:#684551;
+}
 /* -- HEADER -- */
 a.mega-menu-link {
 	letter-spacing:2px;
