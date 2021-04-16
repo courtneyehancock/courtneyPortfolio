@@ -51,13 +51,18 @@ font-family: 'JosefinSans-ThinItalic' !important;
 	src: url('fonts/JosefinSans-BoldItalic.ttf') format('truetype');
 }
 
+@font-face {
+	font-family: 'Santana';
+	src: url('fonts/Santana.ttf') format('truetype');
+}
+
 h1 {
-  font-family: 'JosefinSans-Bold' !important;
+  font-family: 'Santana', serif !important;
   color: #ffca7a;
 }
 
 h2, h3 {
-  font-family: 'JosefinSans-BoldItalic' !important;
+  font-family: 'JosefinSans-Bold' !important;
   color: #684551;
 }
 h4, h5, h6 {
