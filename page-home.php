@@ -1,9 +1,8 @@
 <?php /*Template Name: Home Page Template*/ ?>
 <?php get_header(); ?>
 
-<div class="main-content container-fluid">
-  <div class="row">
-    <div class="col-md-12">
+<div class="main-content">
+
       <!--Text-->
       <?php
         if(have_posts()){
@@ -13,8 +12,6 @@
           }
         }
       ?>
-    </div>
-  </div>
 </div>
 
 
