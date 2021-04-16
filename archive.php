@@ -2,8 +2,7 @@
 get_header();
 ?>
 <div class="container">
-  <div class="row">
-    <div class="twelve columns">
+
       <h2><?php
         if(is_category()){
           single_cat_title();
@@ -32,8 +31,7 @@ get_header();
               }
             }
       ?>
-    </div>
-  </div>
+
 </div>
 
 <?php get_footer(); ?>

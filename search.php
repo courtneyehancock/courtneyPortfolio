@@ -3,8 +3,7 @@ get_header();
 ?>
 
 <div class="container">
-  <div class="row">
-    <div class="twelve columns">
+
       <?php if(have_posts()){?>
               <h1><?php printf(__('Search Results for : %s'), '<span>' . get_search_query() . '</span>');?></h1>
               <?php while(have_posts()){
@@ -19,8 +18,7 @@ get_header();
               get_search_form();
             }
       ?>
-    </div>
-  </div>
+
 </div>
 
 <?php get_footer(); ?>
